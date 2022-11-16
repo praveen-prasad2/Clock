@@ -4,9 +4,7 @@ function dateChange(){
     let minute=d.getMinutes()
     let second=d.getSeconds()
     let millisecond=d.getMilliseconds()
-    let date=d.getDate()
-    let month=d.getMonth()
-    let year=d.getFullYear()
+
 
     document.getElementById("hour")
     .innerHTML=hour
@@ -16,12 +14,6 @@ function dateChange(){
     .innerHTML=second
     document.getElementById("milli")
     .innerHTML=millisecond
-    document.getElementById("date")
-    .innerHTML=date
-    document.getElementById("month")
-    .innerHTML=month+1
-    document.getElementById("year")
-    .innerHTML=year
     }
 
     setInterval(dateChange,1000)
