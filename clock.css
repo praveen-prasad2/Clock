@@ -1,0 +1,27 @@
+.main{
+    border: 1px solid #567;
+   width: 600px;
+   height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30%;
+    justify-content: space-around;
+    background: url(bg.jpeg);
+    background-size: cover;
+    margin-left: 450px;
+    margin-top: 200px;
+    box-shadow: 5px 5px 5px #567;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#milli{
+    font-size: 20px;
+    color: red;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
